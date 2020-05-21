@@ -1,0 +1,4 @@
+#Thu May 21 15:38:38 COT 2020
+base.0=E\:\\Luis Hijo\\movil\\Parcial-2\\Parcial2\\Parcial2\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
