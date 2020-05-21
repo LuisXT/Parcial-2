@@ -72,7 +72,6 @@
         android:layout_below="@id/contra"
         android:layout_marginLeft="50dp"
         android:layout_marginRight="60dp"
-        android:
         />
 
         <Button
