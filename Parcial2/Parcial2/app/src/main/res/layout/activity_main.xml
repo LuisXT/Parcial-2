@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/borde"
+    android:background="#d6ffde"
     tools:context=".InicioSesion">
 
     //sirve para modificar la apariencia del titulo
@@ -26,14 +26,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/Titulo"
-        android:text="Nuevo Sistema de Matricula"
-        android:layout_margin="25dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="27dp"
+        android:layout_marginBottom="25dp"
         android:gravity="center"
-        android:textSize="25dp"
+        android:text="Nuevo Sistema de Matricula"
         android:textColor="#210250"
-        />
+        android:textSize="25dp" />
 
     <EditText
         android:id="@+id/Cedula"
@@ -50,8 +54,10 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/Titulo1"
         android:layout_marginLeft="55dp"
-        android:textSize="25dp"
+        android:textSize="20dp"
         android:text="Cedula:"
+        android:textColor="#000000"
+
         />
 
     <TextView
@@ -61,8 +67,10 @@
         android:layout_below="@id/cedula"
         android:layout_marginTop="80dp"
         android:layout_marginLeft="55dp"
-        android:textSize="25dp"
+        android:textSize="20dp"
         android:text="Clave:"
+
+        android:textColor="#000000"
         />
 
     <EditText
@@ -83,6 +91,6 @@
             android:layout_marginLeft="50dp"
             android:layout_marginRight="50dp"
             android:background="#330E73"
-            android:text="Registro"
+            android:text="Iniciar sesion"
             android:textColor="#ffffff" />
 </RelativeLayout>
